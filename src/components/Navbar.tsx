@@ -62,7 +62,7 @@ const Navbar = () => {
           {/* Mobile Menu Button */}
           <button className="md:hidden text-2xl">
             <span className="material-icons">
-              <Menu />
+              <Menu/>
             </span>
           </button>
         </div>

@@ -8,7 +8,7 @@ const Contact = () => {
     style={{ backgroundImage: 'url("/bg-h-image.jpg")' }}
   >
     <div className="text-center">
-      <h1 className="text-white text-4xl md:text-5xl font-bold">Contact</h1>
+      <h1 className="text-white text-4xl md:text-5xl font-bold">Contact Us</h1>
       <nav className="mt-2">
         <a href="#" className="text-white hover:text-orange-300">
           Home

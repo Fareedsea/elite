@@ -3,13 +3,12 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className=" container-xxl bg-black p-0">
-      
-      <div className="grid md:grid-cols-3 items-center md:gap-4 gap-8 font-[sans-serif] max-w-5xl max-md:max-w-md mx-auto">
-      <div className="w-[25.28px] h-[492px]">
+          
+      <div className="w-full bg-black bg-cover bg-center grid md:grid-cols-3 items-center md:gap-4 gap-8 font-[sans-serif] max-w-5xl max-md:max-w-md mx-auto">
+      {/* <div className="w-[25.28px] h-[492px]">
 
-      </div>
-        <div className="w-[472px] h-[356px] mt-[293px] max-md:order-1 max-md:text-center">
+      </div> */}
+        <div className="h-[356px] mt-[293px] max-md:order-1 max-md:text-center">
           <h3 className="text-[#FF9F0D] sm:text-2xl text-1xl sm:leading-10">
             Its Quick & Amusing!
           </h3>
@@ -30,13 +29,16 @@ const Hero = () => {
         </div>
         <div className="w-[877.8px] h-[670px]">
           <img
-            src="/h-image.jpg"
+            src="/hero-01-01.png"
             className="w-full h-full md:object-contain"
           />
         </div>
       </div>
-    </div>
+    
   );
 };
 
 export default Hero;
+
+
+

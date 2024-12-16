@@ -1,17 +1,19 @@
 import React from "react";
+import Image from "next/image";
+import { FaFacebookF, FaTwitter,FaInstagram, FaYoutubeSquare, FaLinkedinIn  } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <div>
-      <footer className="w-[1920px] h-[774px] bg-black text-white">
+      <footer className="w-full bg-black text-white">
         <div className="flex flex-col w-[1169px] h-[112px]">
-          <div className="flex justify-evenly">
-            <h2 className="text-orange-500 text-4xl font-bold">
+          <div className="flex justify-evenly items-center">
+            <h2 className="text-orange-500 text-4xl font-bold ">
               St<span className="text-white">ill Need Our Support?</span>
             </h2>
-            <button>Subscrib</button>
+            <button className="w-[130px] h-[50px] bg-orange-400 rounded-lg">Subscrib</button>
           </div>
-          <p className="flex justify-centermt-2">
+          <p className="flex justify-center">
             Don't wait, make a smart & logical choice here. It's pretty easy.
           </p>
         </div>
@@ -24,10 +26,15 @@ const Footer = () => {
               GroundLink for dependable, safe, and professional chauffeured car
               service in major cities across the world.
             </p>
-            <div className="mt-4">
+            <div className="mt-4 flex items-start">
+                            <div className="bg-orange-400 border-2 border-yellow-400 w-16 h-16 mx-auto rounded-lg">
+                              <Image src="/vine.png" alt="Food 3" width={300} height={300} />
+                            </div>
+              <div className="flex flex-col">
               <p className="text-sm font-semibold">Opening Hours:</p>
               <p className="text-sm">Mon - Sat: 8:00 - 6:00</p>
               <p className="text-sm">Sunday: Closed</p>
+              </div>
             </div>
           </div>
           {/* Useful Links Section */}
@@ -152,24 +159,27 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="mt-10 border-t border-gray-700 pt-6">
+        <div className="w-full h-[99px] bg-gray-700 mt-10 border-t border-white pt-6">
           <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
             <p className="text-sm">© 2022 by Ayeman. All Rights Reserved.</p>
             <div className="flex space-x-4 mt-4 md:mt-0">
-              <a href="#" className="text-gray-400 hover:text-white">
-                <i className="fab fa-facebook" />
+              <a href="#" className="text-white hover:text-white">
+              <FaFacebookF />
+                </a>
+              <a href="#" className="text-white hover:text-white">
+                <FaTwitter />
+                
               </a>
-              <a href="#" className="text-gray-400 hover:text-white">
-                <i className="fab fa-twitter" />
+              <a href="#" className="text-white hover:text-white">
+              <FaInstagram />
+                
               </a>
-              <a href="#" className="text-gray-400 hover:text-white">
-                <i className="fab fa-instagram" />
+              <a href="#" className="text-white hover:text-white">
+              <FaYoutubeSquare />
+                
               </a>
-              <a href="#" className="text-gray-400 hover:text-white">
-                <i className="fab fa-youtube" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white">
-                <i className="fab fa-linkedin" />
+              <a href="#" className="text-white hover:text-white">
+              <FaLinkedinIn />
               </a>
             </div>
           </div>
