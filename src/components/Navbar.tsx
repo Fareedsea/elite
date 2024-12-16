@@ -1,5 +1,6 @@
 import { FaSearch } from "react-icons/fa";
 import { LiaShoppingBagSolid } from "react-icons/lia";
+import { AiOutlineUser } from "react-icons/ai";
 import Link from "next/link";
 import Menu from "./Menu";
 
@@ -46,13 +47,14 @@ const Navbar = () => {
               placeholder="Search..."
               className="p-2 mb-0 rounded-3xl bg-black text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-[#FF9F0D]"
             />
-            <div className="absolute top-3 right-3 text-white">
+            <div className="absolute top-3 right-3 text-white cursor-pointer">
               <FaSearch />
             </div>
           </div>
-
+          <AiOutlineUser className="text-2xl cursor-pointer" />
           {/* Cart Icon */}
           <div className="relative">
+           
             <LiaShoppingBagSolid className="text-2xl cursor-pointer" />
             <span className="absolute top-0 right-0 bg-black text-white text-xs rounded-full px-1"></span>
           </div>

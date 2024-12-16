@@ -17,14 +17,28 @@ const Menu = () => {
       />
       {
       open && (
-      <div className="absolute bg-black text-white left-0 top-20 w-full h-[calc(100vh-80px)] flex flex-col items-center justify-center gap-8 text-xl z-10">
-        <Link href="/">Home</Link>
-        <Link href="/Menu">Menu</Link>
-        <Link href="/Blog">Blog</Link>
-        <Link href="/Pages">Pages</Link>
-        <Link href="/About">About</Link>
-        <Link href="/Shop">Shop</Link>
-        <Link href="/Contact">Contact</Link>
+      <div className="absolute bg-black text-white left-0 w-full h-[calc(100vh-80px)] flex flex-col items-center justify-center gap-8 text-xl z-10">
+       <Link href="/" className="hover:text-orange-400">
+            Home
+          </Link>
+          <Link href="/Menu" className="hover:text-orange-400">
+            Menu
+          </Link>
+          <Link href="/Blog" className="hover:text-orange-400">
+            Blog
+          </Link>
+          <Link href="/Pages" className="hover:text-orange-400">
+            Pages
+          </Link>
+          <Link href="/About" className="hover:text-orange-400">
+            About
+          </Link>
+          <Link href="/Shop" className="hover:text-orange-400">
+            Shop
+          </Link>
+          <Link href="/Contact" className="hover:text-orange-400">
+            Contact
+          </Link>
       </div>
       )
     }
