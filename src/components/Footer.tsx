@@ -6,12 +6,14 @@ const Footer = () => {
   return (
     <div>
       <footer className="w-full bg-black text-white">
-        <div className="flex flex-col w-[1169px] h-[112px]">
-          <div className="flex justify-evenly items-center">
-            <h2 className="text-orange-500 text-4xl font-bold ">
+      <div className="border-b-4 border-orange-500">
+        <div className="flex flex-col">
+          <div className="flex justify-center items-center ">
+            <h2 className="text-orange-500 text-4xl font-bold">
               St<span className="text-white">ill Need Our Support?</span>
             </h2>
             <button className="w-[130px] h-[50px] bg-orange-400 rounded-lg">Subscrib</button>
+            </div>
           </div>
           <p className="flex justify-center">
             Don't wait, make a smart & logical choice here. It's pretty easy.
