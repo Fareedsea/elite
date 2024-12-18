@@ -14,7 +14,7 @@ const Navbar = () => {
         </div>
 
         {/* Nav Items */}
-        <div className="hidden md:flex space-x-8">
+        <div className="hidden md:flex space-x-8 font-normal">
           <Link href="/" className="hover:text-orange-400">
             Home
           </Link>
@@ -45,7 +45,7 @@ const Navbar = () => {
             <input
               type="text"
               placeholder="Search..."
-              className="p-2 mb-0 rounded-3xl bg-black text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-[#FF9F0D]"
+              className="p-2 mb-0 rounded-3xl bg-black text-white placeholder-white border border-[#FF9F0D]"
             />
             <div className="absolute top-3 right-3 text-white cursor-pointer">
               <FaSearch />

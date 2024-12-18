@@ -163,7 +163,7 @@ const Footer = () => {
         </div>
         <div className="w-full h-[99px] bg-gray-700 mt-10 border-t border-white pt-6">
           <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
-            <p className="text-sm">© 2022 by Ayeman. All Rights Reserved.</p>
+            <p className="text-sm">© 2024 by Fareed. All Rights Reserved.</p>
             <div className="flex space-x-4 mt-4 md:mt-0">
               <a href="#" className="text-white hover:text-white">
               <FaFacebookF />
