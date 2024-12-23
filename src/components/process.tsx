@@ -4,10 +4,10 @@ import Image from 'next/image'
 const Process = () => {
   return (
     <>
-  <div className="relative bg-gradient-to-r from-purple-900 to-indigo-800 py-16 font-[sans-serif]">
+  <div className="relative py-16">
     <div className="absolute inset-0">
       <img
-        src="https://readymadeui.com/cardImg.webp"
+        src="bg-blog.png"
         alt="Background Image"
         className="w-full h-full object-cover opacity-50"
       />
