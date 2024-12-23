@@ -7,6 +7,7 @@ import Ourmenu from "@/components/Ourmenu";
 import Ourchef from "@/components/Ourchef";
 import Testimonial from "@/components/Testimonial";
 import Process from "@/components/process";
+import Blog from "@/components/Blog";
 
 
 
@@ -22,6 +23,7 @@ export default function Home() {
       <Ourchef/>
       <Testimonial/>
       <Process/>
+      <Blog/>
 
       
     </div>

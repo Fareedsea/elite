@@ -1,24 +1,41 @@
 import React from "react";
 import Image from "next/image";
-import { FaFacebookF, FaTwitter,FaInstagram, FaYoutubeSquare, FaLinkedinIn  } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaInstagram,
+  FaYoutubeSquare,
+  FaLinkedinIn,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="mt-5">
       <footer className="w-full bg-black text-white">
-      <div className="border-b-4 border-orange-500">
-        <div className="flex flex-col">
-          <div className="flex justify-center items-center ">
+        <div className="mb-5 border-b-2 border-orange-300 container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="flex flex-col">
             <h2 className="text-orange-500 text-4xl font-bold">
               St<span className="text-white">ill Need Our Support?</span>
             </h2>
-            <button className="w-[130px] h-[50px] bg-orange-400 rounded-lg">Subscrib</button>
-            </div>
+            
           </div>
-          <p className="flex justify-center">
-            Don't wait, make a smart & logical choice here. It's pretty easy.
-          </p>
+          <div className="w-[460px] flex justify-self-end">
+            <input
+              type="email"
+              placeholder="Enter your email"
+              className="w-full bg-orange-400 py-3.5 px-4 text-white text-base focus:outline-none"
+            />
+            <button className=" bg-white hover:bg-orange-500 text-orange-400 text-base tracking-wide py-3.5 px-6 hover:shadow-md hover:transition-transform transition-transform hover:scale-105 focus:outline-none">
+              Subscribe
+            </button>
+          </div>
+          <div>
+          <p className="mb-[20px]">
+              Don't wait, make a smart & logical choice here. It's pretty easy.
+            </p>
+          </div>
         </div>
+
         <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* About Us Section */}
           <div>
@@ -29,13 +46,13 @@ const Footer = () => {
               service in major cities across the world.
             </p>
             <div className="mt-4 flex items-start">
-                            <div className="bg-orange-400 border-2 border-yellow-400 w-16 h-16 mx-auto rounded-lg">
-                              <Image src="/vine.png" alt="Food 3" width={300} height={300} />
-                            </div>
+              <div className="bg-orange-400 border-2 border-yellow-400 w-16 h-16 mx-auto rounded-lg">
+                <Image src="/vine.png" alt="Food 3" width={300} height={300} />
+              </div>
               <div className="flex flex-col">
-              <p className="text-sm font-semibold">Opening Hours:</p>
-              <p className="text-sm">Mon - Sat: 8:00 - 6:00</p>
-              <p className="text-sm">Sunday: Closed</p>
+                <p className="text-sm font-semibold">Opening Hours:</p>
+                <p className="text-sm">Mon - Sat: 8:00 - 6:00</p>
+                <p className="text-sm">Sunday: Closed</p>
               </div>
             </div>
           </div>
@@ -166,22 +183,19 @@ const Footer = () => {
             <p className="text-sm">© 2024 by Fareed. All Rights Reserved.</p>
             <div className="flex space-x-4 mt-4 md:mt-0">
               <a href="#" className="text-white hover:text-white">
-              <FaFacebookF />
-                </a>
+                <FaFacebookF />
+              </a>
               <a href="#" className="text-white hover:text-white">
                 <FaTwitter />
-                
               </a>
               <a href="#" className="text-white hover:text-white">
-              <FaInstagram />
-                
+                <FaInstagram />
               </a>
               <a href="#" className="text-white hover:text-white">
-              <FaYoutubeSquare />
-                
+                <FaYoutubeSquare />
               </a>
               <a href="#" className="text-white hover:text-white">
-              <FaLinkedinIn />
+                <FaLinkedinIn />
               </a>
             </div>
           </div>
