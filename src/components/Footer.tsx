@@ -12,7 +12,8 @@ const Footer = () => {
   return (
     <div className="mt-5">
       <footer className="w-full bg-black text-white">
-        <div className="mb-5 border-b-2 border-orange-300 container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="py-20">
+        <div className="w-[80%] border-b-2 border-orange-300 container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="flex flex-col">
             <h2 className="text-orange-500 text-4xl font-bold">
               St<span className="text-white">ill Need Our Support?</span>
@@ -35,7 +36,7 @@ const Footer = () => {
             </p>
           </div>
         </div>
-
+        </div>
         <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* About Us Section */}
           <div>
@@ -45,7 +46,7 @@ const Footer = () => {
               GroundLink for dependable, safe, and professional chauffeured car
               service in major cities across the world.
             </p>
-            <div className="mt-4 flex items-start">
+            <div className="mt-4 flex justify-self-start gap-4">
               <div className="bg-orange-400 border-2 border-yellow-400 w-16 h-16 mx-auto rounded-lg">
                 <Image src="/vine.png" alt="Food 3" width={300} height={300} />
               </div>

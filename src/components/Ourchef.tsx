@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 const Ourchef = () => {
   return (
     <div>
@@ -33,7 +33,12 @@ const Ourchef = () => {
             />
           </div>
           <div className="flex justify-center">
-          <button className="border border-orange-400 w-[155px] h-[50px] rounded-3xl">See More</button>
+          
+             <Link href="/Ourchef">
+                <button className="border border-orange-400 w-[155px] h-[50px] rounded-3xl hover:bg-orange-400">
+                  See More
+                </button>
+              </Link>
           </div>
       </div>
     </section>

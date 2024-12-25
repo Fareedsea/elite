@@ -1,5 +1,5 @@
 import { Great_Vibes } from "next/font/google"
-const great_Vibes = Great_Vibes({weight:"400", subsets:["latin"]})
+const great_Vibes = Great_Vibes ({weight:"400", subsets:["latin"]});
 
 const Hero = () => {
   return (

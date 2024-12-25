@@ -11,7 +11,7 @@ const Pages = () => {
     <div className="text-center">
       <h1 className="text-white text-4xl md:text-5xl font-bold">Our Pages</h1>
       <nav className="mt-2">
-        <a href="#" className="text-white hover:text-orange-300">
+        <a href="/" className="text-white hover:text-orange-300">
           Home
         </a>
         <span className="text-white mx-2">&gt;</span>

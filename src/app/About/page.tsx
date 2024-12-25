@@ -1,5 +1,6 @@
-import Header from "@/components/Header";
-import Shopingcard from "@/components/Shopingcard";
+import FaqQ from "@/components/FaqQ";
+
+
 
 const About = () => {
   return (
@@ -13,7 +14,7 @@ const About = () => {
             About Us
           </h1>
           <nav className="mt-2">
-            <a href="#" className="text-white hover:text-orange-300">
+            <a href="/" className="text-white hover:text-orange-300">
               Home
             </a>
             <span className="text-white mx-2">&gt;</span>
@@ -49,6 +50,7 @@ const About = () => {
       <div>
         
       </div>
+      <FaqQ/>
     </div>
   );
 };
