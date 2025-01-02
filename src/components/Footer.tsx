@@ -10,7 +10,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-black text-white mt-5">
+    <footer className="w-full bg-black text-white">
       <div className="wrapper">
         <div className="py-20">
           <div className="w-[80%] border-b-2 border-orange-300 container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -184,19 +184,19 @@ const Footer = () => {
         <div className="wrapper container mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
           <p className="text-sm">© 2024 by Fareed. All Rights Reserved.</p>
           <div className="flex space-x-4 mt-4 md:mt-0">
-            <a href="#" className="text-white hover:text-white">
+            <a href="#" className="text-white hover:text-orange-400">
               <FaFacebookF />
             </a>
-            <a href="#" className="text-white hover:text-white">
+            <a href="#" className="text-white hover:text-orange-400">
               <FaTwitter />
             </a>
-            <a href="#" className="text-white hover:text-white">
+            <a href="#" className="text-white hover:text-orange-400">
               <FaInstagram />
             </a>
-            <a href="#" className="text-white hover:text-white">
+            <a href="#" className="text-white hover:text-orange-400">
               <FaYoutubeSquare />
             </a>
-            <a href="#" className="text-white hover:text-white">
+            <a href="#" className="text-white hover:text-orange-400">
               <FaLinkedinIn />
             </a>
           </div>
