@@ -6,13 +6,13 @@ import Menu from "./Menu";
 
 const Navbar = () => {
   return (
-    <div className="w-full bg-black h-[90px] sticky top-0">
-      <nav className="wrapper flex justify-between items-center text-white py-5">
+    <div className="bg-black w-full h-[90px] sticky top-0">
+      <nav className="wrapper flex h-[32px] text-white mt-[29px] mb-[29px]">
         {/* Logo */}
-        <div>
+        <div className="flex justify-self-start text-xl font-bold">
           <span className="text-[#FF9F0D]">Food</span>tuck
         </div>
-        <div className="sm:mx-6 md:mx-8 lg:mx-auto">
+        <div className="container flex justify-evenly items-center mx-4 sm:mx-6 md:mx-8 lg:mx-auto">
           {/* Nav Items */}
           <div className="hidden md:flex space-x-8 font-normal">
             <Link href="/" className="hover:text-orange-400">

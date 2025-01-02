@@ -10,32 +10,32 @@ import {
 
 const Footer = () => {
   return (
-    <div className="mt-5">
-      <footer className="w-full bg-black text-white">
+    <footer className="w-full bg-black text-white mt-5">
+      <div className="wrapper">
         <div className="py-20">
-        <div className="w-[80%] border-b-2 border-orange-300 container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="flex flex-col">
-            <h2 className="text-orange-500 text-4xl font-bold">
-              St<span className="text-white">ill Need Our Support?</span>
-            </h2>
-            
+          <div className="w-[80%] border-b-2 border-orange-300 container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="flex flex-col">
+              <h2 className="text-orange-500 text-4xl font-bold">
+                St<span className="text-white">ill Need Our Support?</span>
+              </h2>
+            </div>
+            <div className="w-[460px] flex justify-self-end">
+              <input
+                type="email"
+                placeholder="Enter your email"
+                className="w-full bg-orange-400 py-3.5 px-4 text-white text-base focus:outline-none"
+              />
+              <button className=" bg-white hover:bg-orange-500 text-orange-400 text-base tracking-wide py-3.5 px-6 hover:shadow-md hover:transition-transform transition-transform hover:scale-105 focus:outline-none">
+                Subscribe
+              </button>
+            </div>
+            <div>
+              <p className="mb-[20px]">
+                Don't wait, make a smart & logical choice here. It's pretty
+                easy.
+              </p>
+            </div>
           </div>
-          <div className="w-[460px] flex justify-self-end">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="w-full bg-orange-400 py-3.5 px-4 text-white text-base focus:outline-none"
-            />
-            <button className=" bg-white hover:bg-orange-500 text-orange-400 text-base tracking-wide py-3.5 px-6 hover:shadow-md hover:transition-transform transition-transform hover:scale-105 focus:outline-none">
-              Subscribe
-            </button>
-          </div>
-          <div>
-          <p className="mb-[20px]">
-              Don't wait, make a smart & logical choice here. It's pretty easy.
-            </p>
-          </div>
-        </div>
         </div>
         <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* About Us Section */}
@@ -179,30 +179,30 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="w-full h-[99px] bg-gray-700 mt-10 border-t border-white pt-6">
-          <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
-            <p className="text-sm">© 2024 by Fareed. All Rights Reserved.</p>
-            <div className="flex space-x-4 mt-4 md:mt-0">
-              <a href="#" className="text-white hover:text-white">
-                <FaFacebookF />
-              </a>
-              <a href="#" className="text-white hover:text-white">
-                <FaTwitter />
-              </a>
-              <a href="#" className="text-white hover:text-white">
-                <FaInstagram />
-              </a>
-              <a href="#" className="text-white hover:text-white">
-                <FaYoutubeSquare />
-              </a>
-              <a href="#" className="text-white hover:text-white">
-                <FaLinkedinIn />
-              </a>
-            </div>
+      </div>
+      <div className="w-full h-[99px] bg-gray-700 mt-10 border-t border-white pt-6">
+        <div className="wrapper container mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
+          <p className="text-sm">© 2024 by Fareed. All Rights Reserved.</p>
+          <div className="flex space-x-4 mt-4 md:mt-0">
+            <a href="#" className="text-white hover:text-white">
+              <FaFacebookF />
+            </a>
+            <a href="#" className="text-white hover:text-white">
+              <FaTwitter />
+            </a>
+            <a href="#" className="text-white hover:text-white">
+              <FaInstagram />
+            </a>
+            <a href="#" className="text-white hover:text-white">
+              <FaYoutubeSquare />
+            </a>
+            <a href="#" className="text-white hover:text-white">
+              <FaLinkedinIn />
+            </a>
           </div>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer >
   );
 };
 
