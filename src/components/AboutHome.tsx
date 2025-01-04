@@ -3,7 +3,7 @@ import Link from "next/link";
 import { FaCheck } from "react-icons/fa";
 
 
-const About = () => {
+const AboutHome = () => {
   return (
    
     <section className="bg-black text-white py-16 px-6 md:px-12 lg:wrapper flex flex-col lg:flex-row items-center justify-between">
@@ -75,4 +75,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutHome;

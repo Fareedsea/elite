@@ -1,10 +1,11 @@
-import FaqQ from "@/components/FaqQ";
+import AboutHome from "@/components/AboutHome";
+
 
 
 
 const About = () => {
   return (
-    <div className="bg-white text-black">
+    <div className="bg-white">
       <div
         className="bg-cover bg-center h-64 flex items-center justify-center"
         style={{ backgroundImage: 'url("/bg-h-image.jpg")' }}
@@ -22,35 +23,9 @@ const About = () => {
           </nav>
         </div>
       </div>
-      <div>
-        <div className="grid grid-rows-3 grid-flow-col gap-4">
-          <div className="row-span-3 ...">
-          <img
-              src="/hero-02-01.jpeg"
-              alt="Egg Sandwich"
-              className="w-full h-full object-cover rounded-lg"
-            />
-          </div>
-          <div className="col-span-2 ...">
-          <img
-              src="/hero-02-01.jpeg"
-              alt="Egg Sandwich"
-              className="w-full h-full object-cover rounded-lg"
-            />
-          </div>
-          <div className="row-span-2 col-span-2 ...">
-          <img
-              src="/hero-02-01.jpeg"
-              alt="Egg Sandwich"
-              className="w-full h-full object-cover rounded-lg"
-            />
-          </div>
-        </div>
-      </div>
-      <div>
-        
-      </div>
-      <FaqQ/>
+     
+    <AboutHome/>
+      
     </div>
   );
 };
