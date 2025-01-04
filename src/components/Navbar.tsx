@@ -7,7 +7,8 @@ import Menu from "./Menu";
 const Navbar = () => {
   return (
     <div className="w-full bg-black h-[90px] sticky top-0">
-      <nav className="wrapper flex justify-between items-center text-white py-5">
+    <div className="wrapper">
+      <nav className="flex justify-between items-center text-white py-5">
         {/* Logo */}
         <div>
           <span className="text-[#FF9F0D]">Food</span>tuck
@@ -66,6 +67,7 @@ const Navbar = () => {
           </button>
         </div>
       </nav>
+    </div>
     </div>
   );
 };

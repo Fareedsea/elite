@@ -1,3 +1,4 @@
+import FaqQ from '@/components/FaqQ'
 import Header from '@/components/Header'
 import React from 'react'
 
@@ -19,7 +20,9 @@ const Pages = () => {
       </nav>
     </div>
   </div>
+  <FaqQ/>
     </div>
+
   )
 }
 

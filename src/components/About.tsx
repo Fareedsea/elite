@@ -1,64 +1,78 @@
-// components/AboutUs.js
+import Image from "next/image";
+import Link from "next/link";
+import { FaCheck } from "react-icons/fa";
+
+
 const About = () => {
-    return (
-      <section className="bg-black text-white mt-20 md:flex md:justify-center items-center w-full">
-        <div className="w-[1320px] h-[562px] flex justify-self-center"> 
-        {/* Left Section */}
-        <div className="w-[562px] h-[562px] md:w-1/2">
-          <h2 className="text-yellow-400 italic text-lg mb-2">About us</h2>
-          <h1 className="text-3xl md:text-4xl font-bold mb-4">
-            <span className="text-yellow-400">We</span> Create the best foody product
-          </h1>
-          <p className="mb-6 text-gray-300 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui
-            volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum.
-          </p>
-  
-          {/* Bullet Points */}
-          <ul className="mb-6 space-y-3 text-gray-300">
-            <li className="flex items-center">
-              <span className="text-yellow-400 mr-2">✓</span> Lacus nisi, et ac dapibus sit eu velit in consequat.
-            </li>
-            <li className="flex items-center">
-              <span className="text-yellow-400 mr-2">✓</span> Quisque diam pellentesque bibendum non dui volutpat fringilla.
-            </li>
-            <li className="flex items-center">
-              <span className="text-yellow-400 mr-2">✓</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </li>
-          </ul>
-  
-          {/* Read More Button */}
-          <button className="bg-yellow-400 hover:bg-yellow-500 text-black font-medium py-2 px-5 rounded">
-            Read More
-          </button>
+  return (
+   
+    <section className="bg-black text-white py-16 px-6 md:px-12 lg:wrapper flex flex-col lg:flex-row items-center justify-between">
+      {/* Left Content */}
+      <div className="mr-4 lg:w-1/2 mb-8 lg:mb-0">
+        <h3 className="text-orange-500 text-lg italic mb-2">About Us</h3>
+        <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+          <span className="text-orange-500">We</span> Create the best foody product
+        </h1>
+        <p className="text-gray-300 leading-relaxed mb-6">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+          expedita tempora, ab eum sequi magnam nisi esse quis ullam ipsum
+          voluptatem excepturi, nemo placeat autem iste necessitatibus minus
+          unde voluptatibus!
+        </p>
+
+        {/* List Items */}
+        <ul className="space-y-4 mb-6">
+          <li className="flex items-center">
+            <FaCheck size={20} className="text-orange-500" />
+            <p className="ml-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </li>
+          <li className="flex items-center">
+            <FaCheck size={20} className="text-orange-500" />
+            <p className="ml-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi.</p>
+          </li>
+          <li className="flex items-center">
+            <FaCheck size={20} className="text-orange-500" />
+            <p className="ml-4">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+          </li>
+        </ul>
+
+        {/* Read More Button */}
+        <Link
+          href="/about"
+          className="inline-block bg-transparent border border-orange-500 text-orange-500 py-2 px-6 rounded-full font-medium hover:bg-orange-500 hover:text-black transition duration-300"
+        >
+          Read more
+        </Link>
+      </div>
+
+      {/* Right Images */}
+      <div className="lg:w-1/2 grid grid-cols-2 gap-4">
+        {/* Large Top Image */}
+        <div className="col-span-2">
+          <img
+            src='/hero-02-01.jpeg'
+            alt="Delicious Food 1"
+           
+            className="w-[660px] h-[330px] rounded-lg object-cover"
+          />
         </div>
+        {/* Bottom Two Images */}
+        <img
+          src='/hero-02-02.jpeg'
+          alt="Delicious Food 2"
   
-        {/* Right Section */}
-        <div className="md:w-1/2 flex flex-wrap justify-center mt-8 md:mt-0 md:pl-10">
-          <div className=" gap-4">
-            <img
-              src="/hero-02-01.jpeg"
-              alt="Egg Sandwich"
-              className="w-full h-48 object-cover rounded-lg"
-            />
-            <div className="mt-2 grid grid-cols-2 gap-2"> 
-              <img
-                src="/hero-02-02.jpeg"
-                alt="Food platter"
-                className="w-full h-24 object-cover rounded-lg"
-              />
-              <img
-                src="/hero-02-03.jpeg"
-                alt="Sandwich stack"
-                className="w-full h-24 object-cover rounded-lg"
-              />
-            </div>
-          </div>
-        </div>
-        </div>
-      </section>
-    
-    );
-  };
+          className="w-[322px] h-[194px] rounded-lg object-cover"
+        />
+        <img
+          src='/hero-02-03.jpeg'
+          alt="Delicious Food 3"
   
-  export default About;
+          className="w-[322px] h-[194px] rounded-lg object-cover"
+        />
+      </div>
+    </section>
+
+  );
+};
+
+export default About;

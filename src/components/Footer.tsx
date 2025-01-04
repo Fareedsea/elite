@@ -93,7 +93,7 @@ const Footer = () => {
             <h3 className="text-white text-lg font-bold mb-4">Help?</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="hover:text-white">
+                <a href="/FaqQ" className="hover:text-white">
                   FAQ
                 </a>
               </li>
