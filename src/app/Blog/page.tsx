@@ -1,8 +1,8 @@
-import Header from '@/components/Header'
 import React from 'react'
 
 const Blog = () => {
   return (
+    <div>
     <div
       className="bg-cover bg-center h-64 flex items-center justify-center"
       style={{ backgroundImage: 'url("/bg-h-image.jpg")' }}
@@ -18,7 +18,14 @@ const Blog = () => {
         </nav>
       </div>
     </div>
+  
+
+
+    
+     </div>   
+    
+    
   )
 }
 
-export default Blog
+export default Blog;

@@ -52,10 +52,14 @@ const Navbar = () => {
               <FaSearch />
             </div>
           </div>
+          <Link href="/Signup">
           <AiOutlineUser className="text-2xl cursor-pointer hover:scale-125" />
+          </Link>
           {/* Cart Icon */}
           <div className="relative hover:scale-125">
+          <Link href="/Shop">
             <LiaShoppingBagSolid className="text-2xl cursor-pointer" />
+            </Link>
             <span className="absolute top-0 right-0 bg-black text-white text-xs rounded-full px-1"></span>
           </div>
 
