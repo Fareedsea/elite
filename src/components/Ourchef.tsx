@@ -13,23 +13,23 @@ const Ourchef = () => {
             <img
               src="/chef-01.jpeg"
               alt="Chef"
-              className="w-[305px] h-[308px] object-cover"
+              className="w-[305px] h-[308px] object-cover hover:scale-105"
             />
 
             <img
               src="/chef-02.jpeg"
               alt="Chef"
-              className="w-[305px] h-[308px] object-cover"
+              className="w-[305px] h-[308px] object-cover hover:scale-105"
             />
             <img
               src="/chef-03.png"
               alt="Sandwich stack"
-              className="w-[305px] h-[308px] object-cover"
+              className="w-[305px] h-[308px] object-cover hover:scale-105"
             />
             <img
               src="/chef-04.png"
               alt="Sandwich stack"
-             className="w-[305px] h-[308px] object-cover"
+             className="w-[305px] h-[308px] object-cover hover:scale-105"
             />
           </div>
           <div className="flex justify-center">

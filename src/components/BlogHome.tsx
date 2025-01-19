@@ -1,6 +1,6 @@
 import React from "react";
 
-const Blog = () => {
+const BlogHome = () => {
   return (
     <div>
       <section className="py-32">
@@ -158,4 +158,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default BlogHome;

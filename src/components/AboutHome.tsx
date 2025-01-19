@@ -1,15 +1,15 @@
-import Image from "next/image";
 import Link from "next/link";
 import { FaCheck } from "react-icons/fa";
-
+import { Great_Vibes } from "next/font/google"
+const great_Vibes = Great_Vibes ({weight:"400", subsets:["latin"]});
 
 const AboutHome = () => {
   return (
    
-    <section className="bg-black text-white py-16 px-6 md:px-12 lg:wrapper flex flex-col lg:flex-row items-center justify-between">
+    <section className="bg-black text-white py-16 lg:wrapper flex flex-col lg:flex-row items-center justify-between">
       {/* Left Content */}
       <div className="mr-4 lg:w-1/2 mb-8 lg:mb-0">
-        <h3 className="text-orange-500 text-lg italic mb-2">About Us</h3>
+        <h3 className={`${great_Vibes.className} text-[#FF9F0D] sm:text-2xl text-1xl sm:leading-10`}>About Us</h3>
         <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
           <span className="text-orange-500">We</span> Create the best foody product
         </h1>

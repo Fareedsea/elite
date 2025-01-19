@@ -62,27 +62,27 @@ const Footer = () => {
             <h3 className="text-white text-lg font-bold mb-4">Useful Links</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="hover:text-white">
+                <a href="/About" className="hover:text-orange-400">
                   About
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white">
+                <a href="/Blog" className="hover:text-orange-400">
                   News
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white">
+                <a href="#" className="hover:text-orange-400">
                   Partners
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white">
+                <a href="/Ourchef" className="hover:text-orange-400">
                   Team
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white">
+                <a href="/Contact" className="hover:text-orange-400">
                   Contact
                 </a>
               </li>
@@ -93,32 +93,32 @@ const Footer = () => {
             <h3 className="text-white text-lg font-bold mb-4">Help?</h3>
             <ul className="space-y-2">
               <li>
-                <a href="/FaqQ" className="hover:text-white">
+                <a href="/FaqQ" className="hover:text-orange-400">
                   FAQ
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white">
+                <a href="#" className="hover:text-orange-400">
                   Terms &amp; Conditions
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white">
+                <a href="#" className="hover:text-orange-400">
                   Reporting
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white">
+                <a href="#" className="hover:text-orange-400">
                   Documentation
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white">
+                <a href="#" className="hover:text-orange-400">
                   Support Policy
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white">
+                <a href="#" className="hover:text-orange-400">
                   Privacy
                 </a>
               </li>
@@ -137,7 +137,7 @@ const Footer = () => {
                 <div>
                   <a
                     href="#"
-                    className="text-sm font-semibold hover:text-white"
+                    className="text-sm font-semibold hover:text-orange-400"
                   >
                     Is fastfood good for your body?
                   </a>
@@ -153,7 +153,7 @@ const Footer = () => {
                 <div>
                   <a
                     href="#"
-                    className="text-sm font-semibold hover:text-white"
+                    className="text-sm font-semibold hover:text-orange-400"
                   >
                     Change your food habit with organic food
                   </a>
@@ -169,7 +169,7 @@ const Footer = () => {
                 <div>
                   <a
                     href="#"
-                    className="text-sm font-semibold hover:text-white"
+                    className="text-sm font-semibold hover:text-orange-400"
                   >
                     Do you like fastfood for your life?
                   </a>

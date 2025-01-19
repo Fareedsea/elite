@@ -8,7 +8,7 @@ const Hero = () => {
         <img src="/hero-01-00.png" className="w-[25px] h-[492px]" />
       </div>
       <div className="w-[472px] h-[356px] mt-16">
-      <h3 className={'${great_Vibes.className} text-[#FF9F0D] sm:text-2xl text-1xl sm:leading-10'}>
+      <h3 className={`${great_Vibes.className} text-[#FF9F0D] sm:text-2xl text-1xl sm:leading-10`}>
             Its Quick & Amusing!
           </h3>
           <h3 className="text-white-800 md:text-3xl text-2xl md:leading-10">

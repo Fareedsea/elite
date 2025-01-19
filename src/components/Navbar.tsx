@@ -22,8 +22,8 @@ const Navbar = () => {
             <Link href="/Menu" className="hover:text-orange-400">
               Menu
             </Link>
-            <Link href="/Blog" className="hover:text-orange-400">
-              Blog
+            <Link href="/Blogs" className="hover:text-orange-400">
+              Blogs
             </Link>
             <Link href="/Pages" className="hover:text-orange-400">
               Pages
