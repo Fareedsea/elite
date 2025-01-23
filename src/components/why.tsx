@@ -18,7 +18,6 @@ export default function Why() {
                 alt="Dish 1"
                 width={362}
                 height={356}
-                layout="responsive"
                 className="rounded-lg shadow-lg"
               />
             </div>
@@ -28,7 +27,6 @@ export default function Why() {
                 alt="Dish 2"
                 width={281}
                 height={231}
-                layout="responsive"
                 className="rounded-lg shadow-lg"
               />
             </div>
@@ -42,7 +40,7 @@ export default function Why() {
                 alt="Dish 3"
                 width={244}
                 height={306}
-                layout="responsive"
+                
                 className="rounded-lg shadow-lg"
               />
             </div>
@@ -52,7 +50,7 @@ export default function Why() {
                 alt="Dish 4"
                 width={221}
                 height={226}
-                layout="responsive"
+                
                 className="rounded-lg shadow-lg"
               />
             </div>
@@ -62,7 +60,7 @@ export default function Why() {
                 alt="Dish 5"
                 width={161}
                 height={168}
-                layout="responsive"
+                
                 className="rounded-lg shadow-lg"
               />
             </div>
@@ -72,7 +70,7 @@ export default function Why() {
                 alt="Dish 6"
                 width={400}
                 height={300}
-                layout="responsive"
+                
                 className="rounded-lg shadow-lg"
               />
             </div>

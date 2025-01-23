@@ -1,7 +1,8 @@
 'use client'
 import React, { useState } from 'react';
 import { signIn } from 'next-auth/react';
-
+import { FcGoogle } from "react-icons/fc";
+import { FaApple } from "react-icons/fa";
 const SignUp = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -10,7 +11,7 @@ const SignUp = () => {
     rememberMe: false,
   });
 
-  const handleChange = (e) => {
+  const handleChange = (e:any) => {
     const { name, value, type, checked } = e.target;
     setFormData({
       ...formData,
@@ -18,7 +19,7 @@ const SignUp = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e:any) => {
     e.preventDefault();
     console.log('Sign Up Data:', formData);
     // Add sign-up logic here (e.g., API call to register user)
@@ -108,11 +109,14 @@ const SignUp = () => {
           onClick={() => signIn('google')}
           className="w-full flex items-center justify-center mb-2 py-2 border border-gray-300 rounded-md text-gray-600 hover:bg-gray-50"
         >
-          <img
+        <i className="w-5 h-5 mr-2">
+        <FcGoogle />
+        </i>
+          {/* <img
             src="/google-icon.svg"
             alt="Google"
             className="w-5 h-5 mr-2"
-          />
+          /> */}
           Sign up with Google
         </button>
 
@@ -120,11 +124,15 @@ const SignUp = () => {
           onClick={() => signIn('apple')}
           className="w-full flex items-center justify-center py-2 border border-gray-300 rounded-md text-gray-600 hover:bg-gray-50"
         >
-          <img
+          <i className="w-5 h-5 mr-2">
+          <FaApple />
+          </i>
+          
+          {/* <img
             src="/apple-icon.svg"
             alt="Apple"
             className="w-5 h-5 mr-2"
-          />
+          /> */}
           Sign up with Apple
         </button>
       </div>
