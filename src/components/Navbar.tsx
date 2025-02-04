@@ -11,7 +11,8 @@ const Navbar = () => {
       <nav className="flex justify-between items-center text-white py-5">
         {/* Logo */}
         <div>
-          <span className="text-[#FF9F0D]">Food</span>tuck
+          
+          <Link href="/"><span className="text-[#FF9F0D]">Food</span>tuck</Link>
         </div>
         <div className="sm:mx-6 md:mx-8 lg:mx-auto">
           {/* Nav Items */}

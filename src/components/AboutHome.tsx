@@ -51,8 +51,7 @@ const AboutHome = () => {
         <div className="col-span-2">
           <img
             src='/hero-02-01.jpeg'
-            alt="Delicious Food 1"
-           
+            alt="Delicious Food 1"           
             className="w-[660px] h-[330px] rounded-lg object-cover"
           />
         </div>
